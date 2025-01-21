@@ -21,12 +21,12 @@ By combining these methods, you can drastically reduce flags on your cheat, keep
    ```cpp
    if (MouseAim::InitializeMouse())
 	std::cout << "Successfully Initialize Mouse" << std::endl;
-else
+   else
 	std::cout << "Failed to Initialize Mouse" << std::endl;
 
-if (MouseAim::ExecutePolymorphicMutation())
+   if (MouseAim::ExecutePolymorphicMutation())
 	std::cout << "Successfully Mutated Application" << std::endl;
-else
+   else
 	std::cout << "Failed to Mutate Application" << std::endl;
    ```
-now you can use MoveMouse(int x, int y)
+now you can use `MoveMouse(int x, int y)`
