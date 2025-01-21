@@ -30,3 +30,5 @@ By combining these methods, you can drastically reduce flags on your cheat, keep
 	std::cout << "Failed to Mutate Application" << std::endl;
    ```
 now you can use `MoveMouse(int x, int y)`
+
+video guide: https://youtu.be/akt7wIw-C-k
